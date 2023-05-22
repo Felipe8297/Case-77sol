@@ -1,38 +1,54 @@
 # Case-77sol
+## Technologies Used
 
-Comandos
-Npm ou Yarn dev
-Este comando é usado para iniciar o projeto. Ele irá executar o servidor local e permitir que você desenvolva e teste o código.
+The application was developed using the following technologies:
 
-shell
-Copy code
-npm dev
-ou
+- [React.js](https://reactjs.org/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [Styled Components](https://styled-components.com/)
+- [Storybook](https://storybook.js.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-shell
-Copy code
+## Installation
+
+To install the application on your machine, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+
+```sh
+git clone [url of the repo]
+```
+
+2. Install the dependencies using the package manager npm:
+
+```sh
+npm install
+
+```
+
+3. Run the application using the following command:
+
+```sh
+npm run dev
+or
 yarn dev
-Npm ou Yarn Storybook
-Este comando é usado para iniciar o Storybook, uma ferramenta para desenvolvimento e teste de componentes de interface do usuário. Ele fornece um ambiente isolado para visualizar e interagir com os componentes do projeto.
 
-shell
-Copy code
-npm storybook
-ou
+```
+4. Run the tests using the following command:
 
-shell
-Copy code
-yarn storybook
-Npm ou Yarn Test
-Este comando é usado para executar os testes do projeto. Os testes ajudam a garantir que o código funcione corretamente e a identificar possíveis problemas ou regressões.
-
-shell
-Copy code
-npm test
-ou
-
-shell
-Copy code
+```sh
+npm run test
+or
 yarn test
-Contribuição
-Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma solicitação pull. Faremos uma revisão do seu código e o incorporaremos ao projeto.
+
+```
+
+4. Run the storybook using the following command:
+
+```sh
+npm run storybook
+or
+yarn storybook
+
+```
